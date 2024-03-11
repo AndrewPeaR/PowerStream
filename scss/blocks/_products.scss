@@ -1,0 +1,41 @@
+.products-title{
+    margin-bottom: 90px;
+}
+
+.products__items{
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+
+        &__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &-wrapper{
+                max-width: 600px;
+                h3{
+                    font-size: 64px;
+                    font-weight: 500;
+                    line-height: 121%;
+                    color: $dark;
+                    margin-bottom: 20px;
+                }
+                p{
+                    line-height: 128%;
+                    color: $parag;
+                }
+            }
+
+            &:nth-child(even){
+                text-align: right;
+                a{
+                    margin-left: auto;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        
+    }
+}

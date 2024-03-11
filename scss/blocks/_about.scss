@@ -1,0 +1,15 @@
+.about__text{
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.company-address{
+    background-color: #27272E;
+    padding: 80px 0;
+    margin-bottom: 80px;
+
+    h2, address{
+        text-align: center;
+        color: $white;
+    }
+}
