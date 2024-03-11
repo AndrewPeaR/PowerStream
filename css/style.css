@@ -155,7 +155,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header__nav-items_item {
+.header__nav-items_item a {
   font-size: 18px;
   color: #4F4F4F;
   margin-right: 30px;
@@ -163,7 +163,7 @@ body {
 .header__nav-items_item:last-child {
   margin-right: 0;
 }
-.header__nav-items .logo {
+.header__nav-items .logo a {
   font-weight: 500;
   font-size: 32px;
   color: #333333;
