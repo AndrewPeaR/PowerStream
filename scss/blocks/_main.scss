@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+
+    &__text{
+        max-width: 654px;
+        &-h1{
+            font-weight: 700;
+            font-size: 64px;
+            color: $dark;
+            line-height: 92.5%;
+            margin-bottom: 50px;
+            span{
+                line-height: 92.5%;
+                font-weight: 700;
+                font-size: 64px;
+                color: $purple;
+            }
+        }
+
+        &-p{
+            max-width: 491px;
+            color: $accent;
+            margin-bottom: 50px;
+        }
+    }
+}

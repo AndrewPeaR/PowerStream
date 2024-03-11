@@ -1,0 +1,29 @@
+.header__nav{
+    margin-bottom: 80px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_item{
+            font-size: 18px;
+            color: $accent;
+            margin-right: 30px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        .logo{
+            font-weight: 500;
+            font-size: 32px;
+            color: $dark;
+            line-height: 28px;
+        }
+    }
+}

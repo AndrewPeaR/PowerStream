@@ -1,0 +1,57 @@
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+*{
+    font-family: $font-main;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+body{
+    background: $bg-body;
+}
+
+.btn-orange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: $orange;
+    span{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.btn-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 336px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: $purple;
+    span{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.section-title{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 108%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-undertitle{
+    color: $accent;
+    text-align: center;
+    margin-bottom: 50px;
+}

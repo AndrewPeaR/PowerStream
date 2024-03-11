@@ -1,0 +1,35 @@
+.solutions{
+    margin-bottom: 120px;
+}
+
+.solutions__cards {
+    display: flex;
+    justify-content: space-between;
+
+  .solutions__cards-item {
+    box-shadow: 5px 10px 50px 0px rgba(0, 0, 0, 0.25);
+    max-width: 545px;
+    height: 612px;
+    border-radius: 24px;
+    background-color: $white;
+
+    img {
+      margin-bottom: 25px;
+    }
+
+    &_title {
+      padding-left: 40px;
+      font-size: 36px;
+      color: $dark;
+      font-weight: 500;
+      line-height: 133%;
+      margin-bottom: 10px;
+    }
+
+    &_text {
+      padding-left: 40px;
+      line-height: 128%;
+      color: $parag;
+    }
+  }
+}

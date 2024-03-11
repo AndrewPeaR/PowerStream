@@ -1,0 +1,30 @@
+.reasons-bg{
+    background-color: #27272E;
+}
+
+.reasons{
+    padding: 80px 0;
+
+    &__title{
+        color: $white;
+    }
+    &__undertitle{
+        color: $parag;
+    }
+
+    &__items{
+        margin-top: 80px;
+
+        &-item{
+            margin-bottom: 30px;
+            h3{
+                color: $white;
+                margin-bottom: 12px;
+            }
+            p{
+                padding-left: 50px;
+                color: $parag;
+            }
+        }
+    }
+}
