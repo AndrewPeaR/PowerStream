@@ -100,6 +100,10 @@ html, body {
   background: radial-gradient(114.37% 114.53%, #FFF 0%, rgba(228, 231, 233, 0.5) 100%);
 }
 
+body {
+  padding-top: 36px;
+}
+
 .btn-orange {
   display: flex;
   justify-content: center;
@@ -145,7 +149,6 @@ html, body {
 
 .header__nav {
   margin-bottom: 80px;
-  margin-top: 36px;
   display: flex;
   justify-content: space-between;
   align-items: center;

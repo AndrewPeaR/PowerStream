@@ -13,6 +13,10 @@ html, body{
     background: $bg-body;
 }
 
+body{
+    padding-top: 36px;
+}
+
 .btn-orange{
     display: flex;
     justify-content: center;
