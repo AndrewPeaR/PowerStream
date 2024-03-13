@@ -12,33 +12,32 @@
     <div class="partnersWrapper">
       <header class="header">
         <div class="wrapper">
+          <div class="header__logo">
+            <a href="index.html" class="logo">Power Stream</a>
+          </div>
           <nav class="header__nav">
             <ul class="header__nav-items">
-              <li class="header__nav-items_item logo">
-                <a href="index.html">Power Stream</a>
-              </li>
-              <li class="header__nav-items_item">
-                <a href="index.html">Home</a>
-              </li>
-              <li class="header__nav-items_item">
-                <a href="about.html">About</a>
-              </li>
-              <li class="header__nav-items_item">
-                <a href="products.html">Products</a>
-              </li>
-              <li class="header__nav-items_item">
-                <a href="partners.html">Partners</a>
-              </li>
+              <li class="header__nav-items_item"><a href="index.html">Home</a></li>
+              <li class="header__nav-items_item"><a href="about.html">About</a></li>
+              <li class="header__nav-items_item"><a href="products.html">Products</a></li>
+              <li class="header__nav-items_item"><a href="partners.html">Partners</a></li>
             </ul>
             <ul class="header__nav-items">
-              <li class="header__nav-items_item"><a href="#">EN</a></li>
-              <a href="contact.html"
-                ><li class="header__nav-items_item btn-orange">
-                  <span>Contact Us</span>
-                </li></a
-              >
+              <li class="header__nav-items_item">
+                <select class="change_langSEL">
+                  <option value="en" selected>EN</option>
+                  <option value="ru">RU</option>
+                  <!-- <option value="ch">CH</option> -->
+                </select>
+              </li>
+              <a href="contact.html"><li class="header__nav-items_item btn-orange"><span>Contact Us</span></li></a>
             </ul>
           </nav>
+  
+          <!-- Icon for mobile nav -->
+          <div class="burger">
+            <span></span>
+          </div>
         </div>
       </header>
 
@@ -113,5 +112,13 @@
         </footer>
       </div>
     </div>
+    <script>
+      document.querySelector('.burger').addEventListener('click', function(){
+        this.classList.toggle('active');
+        document.querySelector('.header__nav').classList.toggle('open')
+        // Блокировка скролла при открытом бургер меню
+        document.querySelector('body').classList.toggle('block-scroll')
+      })
+  </script>
   </body>
 </html>

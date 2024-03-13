@@ -1,29 +1,101 @@
-.main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 120px;
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
 
-    &__text{
-        max-width: 654px;
-        &-h1{
-            font-weight: 700;
-            font-size: 64px;
-            color: $dark;
-            line-height: 92.5%;
-            margin-bottom: 50px;
-            span{
-                line-height: 92.5%;
-                font-weight: 700;
-                font-size: 64px;
-                color: $purple;
-            }
-        }
-
-        &-p{
-            max-width: 491px;
-            color: $accent;
-            margin-bottom: 50px;
-        }
+  &__text {
+    max-width: 654px;
+    &-h1 {
+      font-weight: 700;
+      font-size: 64px;
+      color: $dark;
+      line-height: 92.5%;
+      margin-bottom: 50px;
+      span {
+        line-height: 92.5%;
+        font-weight: 700;
+        font-size: 64px;
+        color: $purple;
+      }
     }
+
+    &-p {
+      max-width: 491px;
+      color: $accent;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding: 0 30px;
+    &__text {
+      max-width: 60%;
+      &-h1 {
+        font-size: 58px;
+        margin-bottom: 30px;
+        span {
+          font-size: 58px;
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    // flex-direction: column;
+    &__text {
+      &-h1 {
+        font-size: 46px;
+        margin-bottom: 30px;
+        span {
+          font-size: 46px;
+        }
+      }
+      &-p {
+        font-size: 20px;
+      }
+      .btn-blue {
+        width: 250px;
+        height: 60px;
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 630px) {
+    &__text {
+      &-h1 {
+        font-size: 38px;
+        margin-bottom: 30px;
+        span {
+          font-size: 38px;
+        }
+      }
+      &-p {
+        font-size: 16px;
+      }
+    }
+  }
+  @media (max-width: 530px){
+    &__text {
+        max-width: 100%;
+        text-align: center;
+        &-h1 {
+          font-size: 42px;
+          margin-bottom: 30px;
+          span {
+            font-size: 42px;
+          }
+        }
+        &-p {
+          font-size: 20px;
+        }
+        .btn-blue{
+            margin: 0 auto;
+        }
+      }
+    &__pic{
+        display: none;
+    }
+  }
 }
