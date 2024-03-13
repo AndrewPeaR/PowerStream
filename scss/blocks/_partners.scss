@@ -1,0 +1,21 @@
+.partnersWrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.partnersSection{
+    flex: 1 1 auto;
+}
+
+.partners{
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        row-gap: 70px;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+}
