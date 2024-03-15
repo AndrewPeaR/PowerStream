@@ -178,7 +178,7 @@ body {
     padding: 0 30px;
   }
 }
-@media (max-width: 980px) {
+@media (max-width: 1010px) {
   .header > .wrapper {
     justify-content: space-between;
   }
@@ -260,7 +260,7 @@ body {
   transform: rotate(45deg) translate(0, 50%);
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1010px) {
   .burger {
     display: flex;
   }
@@ -289,12 +289,12 @@ body {
     color: #fff;
   }
 }
-@media (max-width: 980px) and (max-width: 460px) {
+@media (max-width: 1010px) and (max-width: 460px) {
   .header__nav li a {
     font-size: 20px;
   }
 }
-@media (max-width: 980px) {
+@media (max-width: 1010px) {
   .header__nav-items {
     flex-direction: column;
     align-items: center;
@@ -305,12 +305,12 @@ body {
     color: #fff;
   }
 }
-@media (max-width: 980px) and (max-width: 460px) {
+@media (max-width: 1010px) and (max-width: 460px) {
   .header__nav-items_item select {
     font-size: 20px;
   }
 }
-@media (max-width: 980px) {
+@media (max-width: 1010px) {
   .header__nav-items .btn-orange {
     width: auto;
     height: auto;
@@ -414,11 +414,11 @@ body {
     text-align: center;
   }
   .main__text-h1 {
-    font-size: 42px;
+    font-size: 38px;
     margin-bottom: 30px;
   }
   .main__text-h1 span {
-    font-size: 42px;
+    font-size: 38px;
   }
   .main__text-p {
     font-size: 20px;
@@ -441,8 +441,6 @@ body {
 .solutions__cards-item {
   box-shadow: 5px 10px 50px 0px rgba(0, 0, 0, 0.25);
   max-width: 545px;
-  height: 612px;
-  padding-bottom: 20px;
   border-radius: 24px;
   background-color: #fff;
 }
@@ -459,8 +457,10 @@ body {
 }
 .solutions__cards-item_text {
   padding-left: 40px;
+  padding-right: 20px;
   line-height: 128%;
   color: #828282;
+  margin-bottom: 30px;
 }
 @media (max-width: 1200px) {
   .solutions {
@@ -639,7 +639,7 @@ body {
     font-size: 20px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 970px) {
   .capabilities__title {
     font-size: 46px;
     margin-bottom: 20px;
@@ -699,31 +699,7 @@ body {
     font-size: 16px;
   }
 }
-@media (max-width: 580px) {
-  .capabilities__cards-item {
-    height: 450px;
-    padding: 30px;
-  }
-  .capabilities__cards-item_text h3 {
-    font-size: 28px;
-  }
-  .capabilities__cards-item_text p {
-    font-size: 16px;
-  }
-  .capabilities__cards-item a {
-    font-size: 14px;
-  }
-  .capabilities__cards .inverted-card .capabilities__cards-item_text h3 {
-    font-size: 28px;
-  }
-  .capabilities__cards .inverted-card .capabilities__cards-item_text p {
-    font-size: 16px;
-  }
-  .capabilities__cards .inverted-card a {
-    font-size: 14px;
-  }
-}
-@media (max-width: 530px) {
+@media (max-width: 680px) {
   .capabilities__title {
     font-size: 38px;
   }
@@ -947,6 +923,7 @@ body {
 .productsDemo__items-item__text-wrapper p {
   line-height: 128%;
   color: #828282;
+  margin-bottom: 30px;
 }
 .productsDemo__items-item__text:nth-child(even) {
   text-align: right;
@@ -1089,13 +1066,17 @@ body {
   .products__cards {
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 40px;
   }
   .products__cards-item {
     margin-right: 20px;
     margin-bottom: 40px;
   }
+  .products__cards-item__text {
+    padding: 17px 25px 30px;
+  }
 }
-@media (max-width: 670px) {
+@media (max-width: 658px) {
   .products__title {
     font-size: 42px;
   }
@@ -1200,10 +1181,19 @@ body {
 }
 @media (max-width: 630px) {
   .callToAction__title {
+    padding: 0;
     font-size: 42px;
   }
   .callToAction__title span {
     font-size: 42px;
+  }
+}
+@media (max-width: 450px) {
+  .callToAction__title {
+    font-size: 34px;
+  }
+  .callToAction__title span {
+    font-size: 34px;
   }
 }
 @media (max-width: 1200px) {
@@ -1280,9 +1270,8 @@ body {
     padding-right: 30px;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 520px) {
   .contacts__text {
-    max-width: 561px;
     margin: 0 auto;
   }
   .contacts__text p {
@@ -1293,8 +1282,11 @@ body {
   }
 }
 @media (max-width: 370px) {
+  .contacts h2 {
+    font-size: 34px;
+  }
   .contacts__text p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contacts__text-item {
     margin-bottom: 50px;

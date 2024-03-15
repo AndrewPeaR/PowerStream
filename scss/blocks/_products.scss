@@ -48,13 +48,17 @@
     &__cards {
         justify-content: space-around;
         flex-wrap: wrap;
+        margin-bottom: 40px;
         &-item{
             margin-right: 20px;
             margin-bottom: 40px;
+            &__text{
+              padding: 17px 25px 30px;
+            }
         }
     }
   }
-  @media (max-width: 670px){
+  @media (max-width: 658px){
     &__title {
         font-size: 42px;
     }

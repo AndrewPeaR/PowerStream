@@ -1,5 +1,5 @@
 // Список языков
-const allLangs = ['ru', 'en', 'ch']
+const allLangs = ['ru', 'en']
 const select = document.querySelector('select')
 
 // Установка языка по умолчанию. Изначально стоит EN
@@ -30,7 +30,7 @@ function checkPagePathname() {
         currentTextObject = partnersPage
         return null
     }
-    if(currentPathname.includes('/contacts')){
+    if(currentPathname.includes('/contact')){
         currentTextObject = contactsPage
         return null
     }
@@ -62,7 +62,7 @@ select.addEventListener('change', () =>{
 
     // Перезагрузка, чтобы на мобилках закрывалось при выборе языка
     document.querySelector('.burger').classList.remove('active');
-    document.querySelector('.header__nav-items').classList.remove('open')
+    document.querySelector('.header__nav').classList.remove('open')
     location.reload()
 })
 

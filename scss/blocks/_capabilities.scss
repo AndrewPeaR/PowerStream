@@ -122,7 +122,7 @@
         }
     }
 
-    @media (max-width: 850px){
+    @media (max-width: 970px){
         &__title{
             font-size: 46px;
               margin-bottom: 20px;
@@ -211,44 +211,44 @@
         }
     }
 
-    @media (max-width: 580px){
-        &__cards {
-            &-item{
-                height: 450px;
-                padding: 30px;
-                &_text{
-                    h3{
-                        font-size: 28px;
-                    }
+    // @media (max-width: 580px){
+    //     &__cards {
+    //         &-item{
+    //             height: 450px;
+    //             padding: 30px;
+    //             &_text{
+    //                 h3{
+    //                     font-size: 28px;
+    //                 }
                     
-                    p{
-                        font-size: 16px;
-                    }
-                }
+    //                 p{
+    //                     font-size: 16px;
+    //                 }
+    //             }
         
-                a{
-                    font-size: 14px;
-                }
-            }
+    //             a{
+    //                 font-size: 14px;
+    //             }
+    //         }
 
-            .inverted-card{
-                .capabilities__cards-item_text{
-                    h3{
-                        font-size: 28px;
-                    }
+    //         .inverted-card{
+    //             .capabilities__cards-item_text{
+    //                 h3{
+    //                     font-size: 28px;
+    //                 }
                     
-                    p{
-                        font-size: 16px;
-                    }
-                }
+    //                 p{
+    //                     font-size: 16px;
+    //                 }
+    //             }
         
-                a{
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-    @media (max-width: 530px){
+    //             a{
+    //                 font-size: 14px;
+    //             }
+    //         }
+    //     }
+    // }
+    @media (max-width: 680px){
         &__title{
             font-size: 38px;
           }

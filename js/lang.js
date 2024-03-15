@@ -1,173 +1,171 @@
+    // "." : {
+    //     "ru" : "",
+    //     "en" : "",
+    // },
+
 const indexPage = {
-    ".main__content-title" : {
-        "ru" : 'Надежные решения для вашей ИТ-инфраструктуры',
-        "en" : 'Reliable solutions for your IT infrastructure',
-        "ch" : '为您的 IT 基础设施提供可靠的解决方案'
+    ".header__home" : {
+        "ru" : 'Главная',
+        "en" : 'Home',
     },
-    ".main__content-text" : {
-        "ru" : "Asia Alliance - ваш надежный партнер<br />в мире IT-технологий",
-        "en" : "Asia Alliance - your reliable partner<br />in the world of IT technologies",
-        "ch" : "亚洲联盟 - 您在 IT 技术领域的可靠合作伙伴"
+    ".header__about" : {
+        "ru" : 'О нас',
+        "en" : 'About',
     },
-    ".btn-active-product" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".header__products" : {
+        "ru" : 'Товары',
+        "en" : 'Products',
     },
-    ".btn-accent-askForAPrice" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    ".header__partners" : {
+        "ru" : 'Партнеры',
+        "en" : 'Partners',
     },
-    ".btn-accent-askForAPrice2" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    ".header__contactus" : {
+        "ru" : 'Связаться с нами',
+        "en" : 'Contact Us',
     },
-    ".btn-accent-askForAPrice3" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    // ----------------------------------------------------
+    ".main__text-h1" : {
+        "ru" : 'IT-оборудование для <span>успешного</span> развития вашей компании',
+        "en" : 'IT equipment for <span>successful</span> development of your company',
     },
-    ".btn-accent-learnMore" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
+    ".main__text-p" : {
+        "ru" : "Power Stream - ваш надежный партнер в мире IT-технологий",
+        "en" : "Power Stream - your reliable partner in the world of IT technologies",
     },
-    ".btn-accent-learnMore2" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
+    ".exploreToCatalog" : {
+        "ru" : "Изучить каталог",
+        "en" : "Explore the catalog",
     },
-    ".service-title" : {
-        "ru": "Наши услуги",
-        "en": "Our services",
-        "ch": "我们的服务"
+    ".solutions__title" : {
+        "ru" : "ИТ-решения любого уровня сложности",
+        "en" : "IT solutions for any level of complexity",
     },
-    ".service-text" : {
-        "ru": "Если вам нужны надежные поставки оборудования, профессиональные серверные решения и надежная круглосуточная поддержка, наша компания - отличный выбор для вас.",
-        "en": "If you need reliable hardware supplies, professional server solutions and dependable 24/7 support, our company is a great choice for you.",
-        "ch": "如果您需要可靠的硬件供应、专业的服务器解决方案和全天候的可靠支持，我们公司将是您的最佳选择。"
+    ".solutions__text" : {
+        "ru" : "Мы предоставляем оборудование для решения любых задач",
+        "en" : "We provide the equipment to solve any problem",
     },
-    ".service__cards-item-text-warranty" : {
-        "ru": "Гарантийное обслуживание<br />IT-оборудования",
-        "en": "Warranty service of<br />IT equipment",
-        "ch": "信息技术设备的保修服务"
+    ".solutions__cards-item_text1" : {
+        "ru" : "Коммутатор Juniper QFX5700 предлагает оптимизированную по стоимости модульную платформу формата 5U 400GbE с 8 слотами.",
+        "en" : "The Juniper QFX5700 switch offers a cost-optimized, modular 5U 400GbE platform with 8 slots.",
     },
-    ".service__cards-item-support" : {
-        "ru": "Поддержка клиентов (колл-центр 24/7, выездная служба, инженеры)",
-        "en": "Customer service support (Call center 24/7, field service, engineers)",
-        "ch": "客户服务支持（全天候呼叫中心、现场服务、 工程师）"
+    ".solutions__cards-item_text2" : {
+        "ru" : "Huawei 2288H V5 представляет собой производительный сервер с высокой вычислительной плотностью.",
+        "en" : "Huawei 2288H V5 is a high-performance server with high computational density.",
     },
-    ".service__cards-item-text-startup" : {
-        "ru": "Пуск и наладка оборудования любой сложности",
-        "en": "Start-up and adjustment of equipment of any complexity",
-        "ch": "启动和调整各种复杂的设备"
+    ".capabilities__title" : {
+        "ru" : "Наши возможности",
+        "en" : "Our Capabilities",
     },
-    ".service__cards-item-text-equip" : {
-        "ru": "Предпродажа ИТ-решений на специализированном оборудовании",
-        "en": "Presale of IT solutions on specialized equipment",
-        "ch": "在专用设备上预售信息技术解决方案"
+    ".capabilities__text" : {
+        "ru" : "Мы сделаем вашу ИТ-инфраструктуру простой и стабильной благодаря этим решениям",
+        "en" : "We make your IT infrastructure simple and stable with these opportunities",
     },
-    ".advantages-title" : {
-        "ru": "Преимущества",
-        "en": "Advantages",
-        "ch": "优势"
+    ".capabilities__cards-item_title1" : {
+        "ru" : "Гарантийное обслуживание IT-оборудования",
+        "en" : "Warranty service of IT equipment",
     },
-    ".advantages-text" : {
-        "ru": "Почему вам стоит воспользоваться услугами нашей компании.",
-        "en": "Why you should utilize our company's services.",
-        "ch": "为什么要使用我们公司的服务。"
+    ".capabilities__cards-item_title2" : {
+        "ru" : "Поддержка клиентов",
+        "en" : "Customer service support",
     },
-    ".advantages__cards-item-experience" : {
-        "ru": "Мы имеем многолетний опыт работы в сфере ИТ и сотрудничаем с крупнейшими поставщиками, что позволяет нам предоставлять высококачественное оборудование и услуги.",
-        "en": "We have many years of experience in IT and work with major suppliers, which allows us to provide high quality equipment and services.",
-        "ch": "我们在 IT 领域拥有多年经验，并与主要供应商合作，因此能够提供高质量的设备和服务。"
+    ".capabilities__cards-item_title3" : {
+        "ru" : "Запуск и настройка оборудования",
+        "en" : "Start-up and adjustment of equipment",
     },
-    ".advantages__cards-item-personalized" : {
-        "ru": "Мы понимаем, что каждый бизнес имеет уникальные потребности, поэтому предлагаем индивидуальный подход к каждому клиенту, помогая найти оптимальные решения для его задач.",
-        "en": "We understand that every business has unique needs, so we offer a personalized approach to each client, helping to find the best solutions for their tasks.",
-        "ch": "我们了解每个企业都有独特的需求，因此我们为每个客户提供个性化的服务，帮助他们找到最佳的解决方案。"
+    ".capabilities__cards-item_title4" : {
+        "ru" : "Импортное оборудование на все случаи жизни",
+        "en" : "Imported equipment for all occasions",
     },
-    ".advantages__cards-item-offer" : {
-        "ru": "Мы предлагаем конкурентоспособные цены на оборудование и услуги, что позволяет нашим клиентам экономить бюджет.",
-        "en": "We offer competitive pricing on equipment and services, allowing our customers to save their budgets.",
-        "ch": "我们为设备和服务提供有竞争力的价格，让客户节省预算。"
+    ".capabilities__cards-item_desc1" : {
+        "ru" : "Обеспечиваем обслуживание по ремонту, замене или обновлению неисправных компонентов или устройств в рамках срока гарантии.",
+        "en" : "Provide repair, replacement or upgrade of defective components or devices within the warranty period.",
     },
-    ".productsdemo-title" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".capabilities__cards-item_desc2" : {
+        "ru" : "Качественное обслуживание, помощь и консультации: ответы на вопросы, решение проблем, удовлетворение потребностей клиентов, обучение в использовании продуктов или услуг, быструю и качественную обратную связь.",
+        "en" : "Quality service, help and advice: answering questions, solving problems, meeting customer needs, training in the use of products or services, quick and quality feedback.",
     },
-    ".productsdemo-text" : {
-        "ru": "Мы предлагаем широкий ассортимент компьютеров, серверных решений, узкоспециализированного оборудования.",
-        "en": "We offer a wide range of computers, server solutions, highly specialized hardware.",
-        "ch": "我们提供各种计算机、服务器解决方案和高度专业化的硬件。"
+    ".capabilities__cards-item_desc3" : {
+        "ru" : "Это включает установку устройства, подключение к необходимым источникам питания и сети, настройку параметров работы, проверку функциональности и тестирование.",
+        "en" : "This includes installing the device, connecting it to the necessary power supplies and network, configuring operating parameters, verifying functionality and testing.",
     },
-    ".productsdemo__cards-item__text-huaweidemo" : {
-        "ru": "Серверы Huawei FusionServer X8000 - это высокопроизводительные устройства разработанные для кампусных сетей и центров обработки данных на базе новейших многоядерных процессоров системы IntelВ® HeopB®. на базе новейших многоядерных процессоров системы IntelВ® HeopB®. технологии.",
-        "en": "Huawei FusionServer X8000 servers are high-performance devices that were developed for campus networks and data centers based on the latest IntelВ® HeopB® system multi-core processor technologies.",
-        "ch": "华为 FusionServer X8000 服务器是面向园区网络和数据中心开发的高性能设备，基于最新的英特尔В® HeopB® 系统多核处理器技术。"
+    ".capabilities__cards-item_desc4" : {
+        "ru" : "Использование импортного оборудования, которое подходит для различных сфер жизни или областей применения.",
+        "en" : "Utilizing imported equipment that is suitable for different walks of life or applications.",
     },
-    ".productsdemo__cards-item__text-ibmdemo" : {
-        "ru": "IBM Lenovo System x3650 M5 отвечает требованиям к надежной и эффективной обработке корпоративных данных, снижает показатели задержки, оптимизирует производительность системы и поддерживает гибкие конфигурации хранения.",
-        "en": "The IBM Lenovo System x3650 M5 fulfills the requirements for reliable and efficient enterprise data processing, reduces latency metrics, optimizes system performance, and supports flexible storage configurations.",
-        "ch": "IBM Lenovo System x3650 M5 可满足可靠、高效的企业数据处理要求，降低延迟指标，优化系统性能，并支持灵活的存储配置。"
+    ".capabilities__cards-item_link1" : {
+        "ru" : "Узнать больше",
+        "en" : "Learn more about it",
     },
-    ".productsdemo__cards-item__text-juniperdemo" : {
-        "ru": "MX104 обеспечивает пропускную способность 80 Гбит/с, резервирование плоскости управления для высокой доступности, четыре фиксированных порта 10GbE и четыре слота Modular Interface Card (MIC) для гибкого подключения к сети и виртуализированных сетевых сервисов.",
-        "en": "The MX104 offers 80Gbps throughput, a redundant control plane for high availability, and four fixed 10GbE ports and four Modular Interface Card (MIC) slots for flexible network connectivity and virtualized network services.",
-        "ch": "MX104 提供 80Gbps 吞吐量、用于高可用性的冗余控制平面、4 个固定 10GbE 端口和 4 个模块化接口卡 (MIC) 插槽，用于灵活的网络连接和虚拟化网络服务。"
+    ".capabilities__cards-item_link2" : {
+        "ru" : "Связаться с нами",
+        "en" : "Contact Us",
     },
-    ".navhome" : {
-        "ru": "Главная",
-        "en": "Home",
-        "ch": "主页"
+    ".capabilities__cards-item_link3" : {
+        "ru" : "Узнать больше",
+        "en" : "Learn more about it",
     },
-    ".navabout" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
+    ".capabilities__cards-item_link4" : {
+        "ru" : "Узнать больше",
+        "en" : "Learn more about it",
     },
-    ".navproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".reasons__title" : {
+        "ru" : "Причины выбрать нас",
+        "en" : "Reasons to choose us",
     },
-    ".navpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
+    ".reasons__undertitle" : {
+        "ru" : "Высокое качества продукции, надежность и профессионализм, инновационные решения, отличный сервис.",
+        "en" : "High quality products, reliability and professionalism, innovative solutions, excellent service.",
     },
-    ".navcontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".reasons__items-item__title1" : {
+        "ru" : "Опыт",
+        "en" : "Experience",
     },
-    ".footeraboutus" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
+    ".reasons__items-item__title2" : {
+        "ru" : "Индивидуальный подход",
+        "en" : "Personalized approach",
     },
-    ".footerproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".reasons__items-item__title3" : {
+        "ru" : "Доступность",
+        "en" : "Accessibility",
     },
-    ".footerpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
+    ".reasons__items-item__desc1" : {
+        "ru" : "Мы имеем многолетний опыт работы в сфере ИТ и сотрудничаем с крупнейшими поставщиками, что позволяет нам предоставлять высококачественное оборудование и услуги.",
+        "en" : "We have many years of experience in IT and work with major suppliers, which allows us to provide high quality equipment and services.",
     },
-    ".footercontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".reasons__items-item__desc2" : {
+        "ru" : "Мы понимаем, что каждый бизнес имеет уникальные потребности, поэтому предлагаем индивидуальный подход к каждому клиенту, помогая найти оптимальные решения для его задач.",
+        "en" : "We understand that every business has unique needs, so we offer a personalized approach to each client, helping to find the best solutions for their tasks.",
     },
+    ".reasons__items-item__desc3" : {
+        "ru" : "Мы предлагаем конкурентоспособные цены на оборудование и услуги, что позволяет нашим клиентам экономить бюджет.",
+        "en" : "We offer competitive pricing on equipment and services, allowing our customers to save their budgets.",
+    },
+    
 }
 
 const aboutPage = {
-    ".about-text-lang" : {
+    ".header__home" : {
+        "ru" : 'Главная',
+        "en" : 'Home',
+    },
+    ".header__about" : {
+        "ru" : 'О нас',
+        "en" : 'About',
+    },
+    ".header__products" : {
+        "ru" : 'Товары',
+        "en" : 'Products',
+    },
+    ".header__partners" : {
+        "ru" : 'Партнеры',
+        "en" : 'Partners',
+    },
+    ".header__contactus" : {
+        "ru" : 'Связаться с нами',
+        "en" : 'Contact Us',
+    },
+    ".about__text": {
         "ru" : `Наша компания поставляет ИТ-оборудование, серверные решения и круглосуточную поддержку для предприятий любого масштаба. Мы предлагаем широкий спектр продуктов и услуг, от поставки компьютеров, серверов, сетевого оборудования и программного обеспечения до развертывания и поддержки ИТ-инфраструктуры.
         <br /><br />
         Почему вам стоит воспользоваться услугами нашей компании:
@@ -193,419 +191,175 @@ const aboutPage = {
         <br />
         4. Competitive pricing: We offer competitive pricing on equipment and services, allowing our customers to save their budgets.
         <br /><br />
-        If you need reliable hardware supplies, professional server solutions and dependable 24/7 support, our company is a great choice for you.`,
-        "ch" : `我们公司为各种规模的企业提供 IT 设备、服务器解决方案和全天候支持。我们提供广泛的产品和服务，从提供计算机、服务器、网络设备和软件到部署和支持 IT 基础设施。
-        <br /><br />
-        为什么要使用我们公司的服务？
-        <br />
-        1. 经验和专业知识： 我们在 IT 领域拥有多年经验，并与主要供应商合作，因此能够提供高质量的设备和服务。
-        <br />
-        2. 个性化方法： 我们了解每个企业都有独特的需求，因此我们为每个客户提供个性化的服务，帮助他们找到最佳的解决方案。
-        <br />
-        3. 全天候支持： 我们公司提供全天候技术支持，确保您的 IT 基础设施顺利运行。
-        <br />
-        4. 有竞争力的价格： 我们为设备和服务提供有竞争力的价格，让客户节省预算。
-        <br /><br />
-        如果您需要可靠的硬件供应、专业的服务器解决方案和全天候的可靠支持，我们公司将是您的最佳选择。`,
+        If you need reliable hardware supplies, professional server solutions and dependable 24/7 support, our company is a great choice for you.`,  
     },
-    ".address-lang" : {
-        "ru": "Адрес",
-        "en": "Address",
-        "ch": "地址"
+    ".company-address__title" : {
+        "ru" : "Адрес офиса компании",
+        "en" : "Company Office Address",
     },
-    ".company-register-lang" : {
-        "ru": "Адрес регистрации компании",
-        "en": "Company Registration Address",
-        "ch": "公司注册地址"
+    ".productsDemo-title" : {
+        "ru" : "Наши товары",
+        "en" : "Our products",
     },
-    ".company-office-lang" : {
-        "ru": "Адрес офиса компании",
-        "en": "Company Office Address",
-        "ch": "公司办公地址"
+    ".productsDemo__items-item__desc1" : {
+        "ru" : "Huawei TaiShan 5290 – это стоечный 2-сокетный сервер в корпусе 4U. Устройство использует высокопроизводительные процессоры Kunpeng 920, которые ускоряют выполнение повседневных задач и повышают эффективность работы. Устройство выполняет целый ряд операций, требовательных к ресурсной базе, это работа в облаке, высокопроизводительные вычисления, обработка больших объемов данных.",
+        "en" : "Huawei TaiShan 5290 is a rack-mounted 2-socket server in a 4U enclosure. The device uses high-performance Kunpeng 920 processors, which accelerate the performance of everyday tasks and improve work efficiency. The device performs a range of resource-intensive operations such as cloud computing, high-performance computing, and big data processing.",
     },
-    ".products-lang" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".productsDemo__items-item__desc2" : {
+        "ru" : "Узел хранения Flex System V7000 Storage Node - это автоматизация и ускорение развертывания благодаря интеграции узла хранения V7000 в инфраструктуру PureFlex System или Flex System. Оптимизация затрат для смешанных рабочих нагрузок благодаря повышенной на 200% производительности твердотельных накопителей.",
+        "en" : "Flex System V7000 Storage Node automates and accelerates deployment by integrating the V7000 Storage Node into your PureFlex System or Flex System infrastructure. Optimize costs for mixed workloads with up to 200% more SSD performance.",
     },
-    ".productsdemo__cards-item__text-huaweidemo" : {
-        "ru": "Серверы Huawei FusionServer X8000 - это высокопроизводительные устройства разработанные для кампусных сетей и центров обработки данных на базе новейших многоядерных процессоров системы IntelВ® HeopB®. на базе новейших многоядерных процессоров системы IntelВ® HeopB®. технологии.",
-        "en": "Huawei FusionServer X8000 servers are high-performance devices that were developed for campus networks and data centers based on the latest IntelВ® HeopB® system multi-core processor technologies.",
-        "ch": "华为 FusionServer X8000 服务器是面向园区网络和数据中心开发的高性能设备，基于最新的英特尔В® HeopB® 系统多核处理器技术。"
+    ".productsDemo__items-item__desc3" : {
+        "ru" : "Маршрутизатор Juniper MX240 базируется на ОС Junos и программируемом кремниевом чипсете Trio/Penta, предоставляя мощные функции маршрутизации, коммутации, безопасности и услуг. Решение помогает операторам связи и поставщикам услуг успешно преобразовывать свои сети и свой бизнес в соответствии с актуальными вызовами.",
+        "en" : "The Juniper MX240 router is based on Junos OS and the Trio/Penta programmable silicon chipset, providing powerful routing, switching, security, and services features. The solution helps carriers and service providers successfully transform their networks and their businesses to meet current challenges.",
     },
-    ".productsdemo__cards-item__text-ibmdemo" : {
-        "ru": "IBM Lenovo System x3650 M5 отвечает требованиям к надежной и эффективной обработке корпоративных данных, снижает показатели задержки, оптимизирует производительность системы и поддерживает гибкие конфигурации хранения.",
-        "en": "The IBM Lenovo System x3650 M5 fulfills the requirements for reliable and efficient enterprise data processing, reduces latency metrics, optimizes system performance, and supports flexible storage configurations.",
-        "ch": "IBM Lenovo System x3650 M5 可满足可靠、高效的企业数据处理要求，降低延迟指标，优化系统性能，并支持灵活的存储配置。"
+    ".productsDemo__items-item__contactus1" : {
+        "ru" : "Свяжитесь с нами",
+        "en" : "Contact Us",
     },
-    ".productsdemo__cards-item__text-juniperdemo" : {
-        "ru": "MX104 обеспечивает пропускную способность 80 Гбит/с, резервирование плоскости управления для высокой доступности, четыре фиксированных порта 10GbE и четыре слота Modular Interface Card (MIC) для гибкого подключения к сети и виртуализированных сетевых сервисов.",
-        "en": "The MX104 offers 80Gbps throughput, a redundant control plane for high availability, and four fixed 10GbE ports and four Modular Interface Card (MIC) slots for flexible network connectivity and virtualized network services.",
-        "ch": "MX104 提供 80Gbps 吞吐量、用于高可用性的冗余控制平面、4 个固定 10GbE 端口和 4 个模块化接口卡 (MIC) 插槽，用于灵活的网络连接和虚拟化网络服务。"
+    ".productsDemo__items-item__contactus2" : {
+        "ru" : "Свяжитесь с нами",
+        "en" : "Contact Us",
     },
-    ".btn-active-product" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".btn-accent-askForAPrice" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice2" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice3" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-learnMore2" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
-    },
-    ".navhome" : {
-        "ru": "Главная",
-        "en": "Home",
-        "ch": "主页"
-    },
-    ".navabout" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".navproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".navpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".navcontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
-    },
-    ".footeraboutus" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".footerproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".footerpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".footercontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".productsDemo__items-item__contactus3" : {
+        "ru" : "Свяжитесь с нами",
+        "en" : "Contact Us",
     },
 }
 
 const productsPage = {
-    ".productsdemo__cards-item__text-huaweidemo" : {
-        "ru": "Серверы Huawei FusionServer X8000 - это высокопроизводительные устройства разработанные для кампусных сетей и центров обработки данных на базе новейших многоядерных процессоров системы IntelВ® HeopB®. на базе новейших многоядерных процессоров системы IntelВ® HeopB®. технологии.",
-        "en": "Huawei FusionServer X8000 servers are high-performance devices that were developed for campus networks and data centers based on the latest IntelВ® HeopB® system multi-core processor technologies.",
-        "ch": "华为 FusionServer X8000 服务器是面向园区网络和数据中心开发的高性能设备，基于最新的英特尔В® HeopB® 系统多核处理器技术。"
+    ".header__home" : {
+        "ru" : 'Главная',
+        "en" : 'Home',
     },
-    ".productsdemo__cards-item__text-huawei2" : {
-        "ru": "Huawei FusionServer 2288H V5 02311XBK - это двухпроцессорные решения с форм-фактором 2U, оптимизированные для широкого спектра рабочих нагрузок. Обеспечивая оптимальный баланс характеристик, эти модели являются идеальным выбором для требовательных сценариев применения.",
-        "en": "Huawei FusionServer 2288H V5 02311XBK are dual-processor solutions with a 2U form factor optimized for a wide range of workloads. Providing an optimal balance of features, the models are the ideal choice for demanding application scenarios.",
-        "ch": "华为 FusionServer 2288H V5 02311XBK 是双处理器解决方案，采用 2U 外形，针对各种工作负载进行了优化。这些机型提供了最佳的功能平衡，是要求苛刻的应用场景的理想选择。"
+    ".header__about" : {
+        "ru" : 'О нас',
+        "en" : 'About',
     },
-    ".productsdemo__cards-item__text-huawei3" : {
-        "ru": "Блейд-система Huawei FusionServer E9000 - это своего рода уникальное оборудование. Она характеризуется низким энергопотреблением, значительной скоростью вычислений и потенциалом масштабирования. В последнем случае конфигурация может быть изменена, что позволяет адаптироваться к изменениям в сети.",
-        "en": "The Huawei FusionServer E9000 blade system is a kind of unique equipment. It is characterized by low power consumption, significant speed of computing and scaling potential. In the latter case, the configuration can be changed, which allows adapting to network changes.",
-        "ch": "华为 FusionServer E9000 刀片系统是一种独特的设备。它的特点是功耗低、运算速度快、扩展潜力大。在后一种情况下，配置可以改变，从而适应网络变化。"
+    ".header__products" : {
+        "ru" : 'Товары',
+        "en" : 'Products',
     },
-    ".productsdemo__cards-item__text" : {
-        "ru": "IBM Lenovo System x3650 M5 отвечает требованиям к надежной и эффективной обработке корпоративных данных, снижает показатели задержки, оптимизирует производительность системы и поддерживает гибкие конфигурации хранения.",
-        "en": "The IBM Lenovo System x3650 M5 fulfills the requirements for reliable and efficient enterprise data processing, reduces latency metrics, optimizes system performance, and supports flexible storage configurations.",
-        "ch": "IBM Lenovo System x3650 M5 可满足可靠、高效的企业数据处理要求，降低延迟指标，优化系统性能，并支持灵活的存储配置。"
+    ".header__partners" : {
+        "ru" : 'Партнеры',
+        "en" : 'Partners',
     },
-    ".productsdemo__cards-item__text-ibm2" : {
-        "ru": "Мощный и надежный BladeCenter HS23 обеспечивает новый уровень высококачественной обработки данных. BladeCenter HS23 - незаменимая вещь для компаний, которым срочно нужна помощь в работе с сетью.",
-        "en": "The powerful and reliable BladeCenter HS23 delivers a new level of high quality data processing. The BladeCenter HS23 is a must-have for companies that urgently need help with their network.",
-        "ch": "功能强大、性能可靠的 BladeCenter HS23 将高质量数据处理提升到了一个新的水平。BladeCenter HS23 是急需网络帮助的公司的必备设备。"
+    ".header__contactus" : {
+        "ru" : 'Связаться с нами',
+        "en" : 'Contact Us',
     },
-    ".productsdemo__cards-item__text-ibm3" : {
-        "ru": "Вычислительный узел IBM Flex System X240 M4 был разработан специально для систем Flex System Chassis Enterprise. Это надежный продукт, который обеспечит работу самых востребованных приложений.",
-        "en": "The IBM Flex System X240 M4 Compute Node was designed specifically for Flex System Chassis Enterprise systems. It is a reliable product that will provide the most demanded applications.",
-        "ch": "IBM Flex System X240 M4 计算节点是专为 Flex System 机箱企业系统设计的。它是一款可靠的产品，可满足最苛刻的应用需求。"
+    ".products__cards-item__text_desc1" : {
+        "ru" : "Huawei FusionServer 5885H V5 – это мощный производительный сервер следующего поколения, представленный в форм-факторе 4U. Система имеет 4 ячейки для размещения процессоров Scalable 1 или 2 поколения, 48 слотов для оперативной памяти DIMM DDR4, 25 ячеек для жестких дисков SAS/SATA малого типоразмера, 2 ячейки для флэш дисков M.2 SSD. Поддерживается 5 вентиляционных блоков и 4 блока источников питания.",
+        "en" : "Huawei FusionServer 5885H V5 is a powerful next-generation performance server presented in a 4U form factor. The system has 4 cells to accommodate Scalable 1 or 2 generation processors, 48 slots for DIMM DDR4 RAM, 25 cells for small SAS/SATA hard disks, 2 cells for M.2 SSD flash disks. It supports 5 ventilation units and 4 power supply units.",
     },
-    ".productsdemo__cards-item__text-juniper1" : {
-        "ru": "Коммутатор Juniper QFX5700 представляет собой оптимизированную по стоимости модульную 8-слотовую платформу 5U 400GbE. Он предназначен для создания коммутационных сетей высокой плотности, идеально подходящих для центров обработки данных.",
-        "en": "The Juniper QFX5700 switch offers a cost-optimized, modular 5U 400GbE 8-slot platform. It is designed for high-density switching networking ideal for data centers.",
-        "ch": "瞻博网络 QFX5700 交换机提供成本优化的模块化 5U 400GbE 8 插槽平台。它专为高密度交换网络而设计，是数据中心的理想选择。"
+    ".products__cards-item__text_desc2" : {
+        "ru" : "Huawei FusionServer Pro XH628 V5 - двухпроцессорный серверный узел с двумя слотами, 4U. Он может быть сконфигурирован максимум с двумя 2,5-дюймовыми и двенадцатью 2,5-дюймовыми или 3,5-дюймовыми жесткими дисками HDD SAS / SATA или твердотельными накопителями SSD, обеспечивая высокую плотность вычислений и широкие возможности хранения.",
+        "en" : "Huawei FusionServer Pro XH628 V5 is a dual-processor, dual-slot, 4U server node. It can be configured with a maximum of two 2.5-inch and twelve 2.5-inch or 3.5-inch HDD SAS / SATA hard disks or SSDs, providing high computing density and extensive storage capabilities.",
     },
-    ".productsdemo__cards-item__text-juniper2" : {
-        "ru": "Коммутатор Juniper EX2300 - это компактное, экономичное решение с высокой плотностью размещения, предназначенное для небольших сетевых сред, где важны пространство и мощность.",
-        "en": "The Juniper EX2300 switch is a compact, cost-effective, high-density solution designed for small network environments where space and power are important.",
-        "ch": "瞻博网络 EX2300 交换机是一款结构紧凑、经济高效的高密度解决方案，专为空间和电力要求较高的小型网络环境而设计。"
+    ".products__cards-item__text_desc3" : {
+        "ru" : "Huawei CH121 V5 представляет собой компактное и высокопроизводительное решение для работы с такими требовательными задачами, как работа с Большими Данными, HPC, облачными платформами и веб-хостинга. Решение оптимальным образом сочетает гибкость конфигурации и высокие характеристики быстродействия благодаря использованию процессоров Intel Xeon.",
+        "en" : "Huawei CH121 V5 is a compact and high-performance solution for demanding tasks such as Big Data, HPC, cloud platforms and web hosting. The solution optimally combines configuration flexibility and high performance characteristics through the use of Intel Xeon processors.",
     },
-    ".productsdemo__cards-item__text-juniper3" : {
-        "ru": "MX104 обеспечивает пропускную способность 80 Гбит/с, резервирование плоскости управления для высокой доступности, четыре фиксированных порта 10GbE и четыре слота Modular Interface Card (MIC) для гибкого подключения к сети и виртуализированных сетевых сервисов.",
-        "en": "The MX104 offers 80Gbps throughput, a redundant control plane for high availability, and four fixed 10GbE ports and four Modular Interface Card (MIC) slots for flexible network connectivity and virtualized network services.",
-        "ch": "MX104 提供 80Gbps 吞吐量、用于高可用性的冗余控制平面、4 个固定 10GbE 端口和 4 个模块化接口卡 (MIC) 插槽，用于灵活的网络连接和虚拟化网络服务。"
+    ".products__cards-item__text_desc4" : {
+        "ru" : "Маршрутизатор Juniper MX204 представляет собой платформу маршрутизации облачного уровня, которая предоставляет пользователям сверхвысокую плотность портов и высокую пропускную способность в компактном и экономичном корпусе. Решение также обеспечивает высокий уровень безопасности и гибкие возможности масштабирования.",
+        "en" : "The Juniper MX204 router is a cloud-class routing platform that provides users with ultra-high port density and high throughput in a compact, cost-effective package. The solution also provides high levels of security and flexible scalability.",
     },
-    ".btn-accent-askForAPrice" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    ".products__cards-item__text_desc5" : {
+        "ru" : "Коммутатор Juniper QFX5120 обеспечивает богатый функционал Layer 2/Layer 3 и расширенные возможности EVPN-VXLAN, что делает его идеальным решением для центров обработки данных и для использования в роли коммутатора агрегации для мультиоблачного развертывания. Модель функционирует под управлением надежной высокопроизводительной операционной системы Junos.",
+        "en" : "The Juniper QFX5120 provides rich Layer 2/Layer 3 functionality and advanced EVPN-VXLAN capabilities, making it ideal for data centers and aggregation switches for multi-cloud deployments. It runs the robust, high-performance Junos operating system.",
     },
-    ".btn-accent-askForAPrice2" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    ".products__cards-item__text_desc6" : {
+        "ru" : "Коммутатор Juniper EX4600 - масштабируемое, доступное и высокопроизводительное решение, оптимизированное для распределительных сетей кампуса. Модель предоставляет фиксированные порты 10 Гб/с и модульные порты 10 Гб/с/40 Гб/с, что дает ему гибкость, которая может быть реализована также в центрах обработки данных и агрегированных развертываниях с поставщиками услуг.",
+        "en" : "The Juniper EX4600 switch is a scalable, affordable, and high-performance solution optimized for campus distribution networks. The model provides fixed 10 Gbps ports and modular 10 Gbps/40 Gbps ports, giving it flexibility that can also be implemented in data centers and aggregated deployments with service providers.",
     },
-    ".btn-accent-askForAPrice3" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
+    ".products__cards-item__text_desc7" : {
+        "ru" : "Опционный модуль IBM Flex System Manager для управления сетями, виртуализацией и системами хранения. FSM - это модуль для системного управления, который позволяет обеспечить эффективность и сокращение затрат для дата-центра. FSM обеспечивает заранее интегрированную среду виртуального управления серверами, устройствами хранения и сети, которая с легкостью управляется из единого интерфейса.",
+        "en" : "IBM Flex System Manager option module for networking, virtualization, and storage management. FSM is a system management module that enables efficiency and cost savings for the data center. FSM provides a pre-integrated virtualized server, storage and network management environment that is easily managed from a single interface.",
     },
-    ".btn-accent-learnMore2" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
+    ".products__cards-item__text_desc8" : {
+        "ru" : "Узел расширения Flex System Storage Expansion Node - это устройство хранения, которое подключается к одному вычислительному узлу 1/2 ширины в качестве дополнительного локального хранилища прямого подключения. Узел обеспечивает гибкое хранение с целью соответствия нуждам емкости, производительности и надежности.",
+        "en" : "The Flex System Storage Expansion Node is a storage device that connects to a single 1/2-width compute node as additional direct-attached local storage. The node provides flexible storage to meet capacity, performance, and reliability needs.",
     },
-    ".btn-accent-askForAPrice4" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice5" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice6" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-learnMore3" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
-    },
-    ".btn-accent-askForAPrice7" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice8" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-askForAPrice9" : {
-        "ru": "Спросить<br />о цене",
-        "en": "Ask for price",
-        "ch": "询问价格"
-    },
-    ".btn-accent-learnMore4" : {
-        "ru": "Подробнее",
-        "en": "Learn more",
-        "ch": "了解更多"
-    },
-    ".navhome" : {
-        "ru": "Главная",
-        "en": "Home",
-        "ch": "主页"
-    },
-    ".navabout" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".navproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".navpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".navcontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
-    },
-    ".footeraboutus" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".footerproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".footerpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".footercontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".products__cards-item__text_desc9" : {
+        "ru" : "Вычислительный узел IBM Flex System x240 - это высокопроизводительный сервер, который предлагает исключительную производительность виртуализации благодаря новым уровням производительности ЦП, объемам памяти и гибким опциям конфигурации.",
+        "en" : "The IBM Flex System x240 Compute Node is a high-performance server that offers exceptional virtualization performance with new levels of CPU performance, memory capacity, and flexible configuration options.",
     },
 }
 
 const partnersPage = {
-    ".section-title" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
+    ".header__home" : {
+        "ru" : 'Главная',
+        "en" : 'Home',
     },
-    ".navhome" : {
-        "ru": "Главная",
-        "en": "Home",
-        "ch": "主页"
+    ".header__about" : {
+        "ru" : 'О нас',
+        "en" : 'About',
     },
-    ".navabout" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
+    ".header__products" : {
+        "ru" : 'Товары',
+        "en" : 'Products',
     },
-    ".navproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
+    ".header__partners" : {
+        "ru" : 'Партнеры',
+        "en" : 'Partners',
     },
-    ".navpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
+    ".header__contactus" : {
+        "ru" : 'Связаться с нами',
+        "en" : 'Contact Us',
     },
-    ".navcontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".partners__title" : {
+        "ru" : 'Компании, которые уверены в нас',
+        "en" : 'The companies that are confident in us',
     },
-    ".footeraboutus" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".footerproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".footerpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".footercontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".partners__undertitle" : {
+        "ru" : 'Мы объединяемся, чтобы добиться надежного результата.',
+        "en" : 'We bond together to make a solid result.',
     },
 }
 
 const contactsPage = {
-    ".contacts-title-lang" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".header__home" : {
+        "ru" : 'Главная',
+        "en" : 'Home',
     },
-    ".callour-lang" : {
-        "ru": "Если у вас возникли вопросы, пожалуйста, свяжитесь с нами",
-        "en": "If you have any questions, please contact us",
-        "ch": "如有任何问题，请联系我们"
+    ".header__about" : {
+        "ru" : 'О нас',
+        "en" : 'About',
     },
-    ".emailour-lang" : {
-        "ru": "Почта: info@asia-alliance.co",
-        "en": "Email: info@asia-alliance.co",
-        "ch": "电子邮件: info@asia-alliance.co"
+    ".header__products" : {
+        "ru" : 'Товары',
+        "en" : 'Products',
     },
-    ".phoneour-lang" : {
-        "ru": "Телефон: +86 130 5910 2019",
-        "en": "Telephone: +86 130 5910 2019",
-        "ch": "电话: +86 130 5910 2019"
+    ".header__partners" : {
+        "ru" : 'Партнеры',
+        "en" : 'Partners',
     },
-    ".wecall-lang" : {
-        "ru": "Мы с нетерпением ждем вашего звонка и дальнейшего сотрудничества!",
-        "en": "We look forward to your call and further cooperation!",
-        "ch": "我们期待您的来电和进一步合作！"
+    ".header__contactus" : {
+        "ru" : 'Связаться с нами',
+        "en" : 'Contact Us',
     },
-    ".address-lang" : {
-        "ru": "Адрес",
-        "en": "Address",
-        "ch": "地址"
+    ".callToAction__title" : {
+        "ru" : 'Мы будем рады вашему <span class="section-title">звонку</span> и дальнейшему <span class="section-title">сотрудничеству</span>!',
+        "en" : 'We look forward to your <span class="section-title">call</span> and further <span class="section-title">cooperation</span>!',
     },
-    ".company-register-lang" : {
-        "ru": "Адрес регистрации компании",
-        "en": "Company Registration Address",
-        "ch": "公司注册地址"
+    ".contacts-title" : {
+        "ru" : 'Свяжитесь с нами',
+        "en" : 'Contact Us',
     },
-    ".company-office-lang" : {
-        "ru": "Адрес офиса компании",
-        "en": "Company Office Address",
-        "ch": "公司办公地址"
+    ".contacts-undertitle" : {
+        "ru" : 'Если у вас возникли вопросы, пожалуйста, свяжитесь с нами',
+        "en" : 'If you have any questions, please contact us',
     },
-    // ---------------------------------------
-    ".navhome" : {
-        "ru": "Главная",
-        "en": "Home",
-        "ch": "主页"
+    ".contacts__text-item__type__email" : {
+        "ru" : 'Почта',
+        "en" : 'Email',
     },
-    ".navabout" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
+    ".contacts__text-item__type__phone" : {
+        "ru" : 'Телефон',
+        "en" : 'Phone',
     },
-    ".navproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".navpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".navcontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
-    },
-    ".footeraboutus" : {
-        "ru": "О нас",
-        "en": "About us",
-        "ch": "关于我们"
-    },
-    ".footerproducts" : {
-        "ru": "Товары",
-        "en": "Products",
-        "ch": "产品"
-    },
-    ".footerpartners" : {
-        "ru": "Партнеры",
-        "en": "Partners",
-        "ch": "合作伙伴"
-    },
-    ".footercontacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "ch": "联系方式"
+    ".contacts__text-item__type__address" : {
+        "ru" : 'Адрес',
+        "en" : 'Address',
     },
 }

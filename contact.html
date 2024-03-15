@@ -17,10 +17,10 @@
           </div>
           <nav class="header__nav">
             <ul class="header__nav-items">
-              <li class="header__nav-items_item"><a href="index.html">Home</a></li>
-              <li class="header__nav-items_item"><a href="about.html">About</a></li>
-              <li class="header__nav-items_item"><a href="products.html">Products</a></li>
-              <li class="header__nav-items_item"><a href="partners.html">Partners</a></li>
+              <li class="header__nav-items_item"><a href="index.html" class="header__home">Home</a></li>
+              <li class="header__nav-items_item"><a href="about.html" class="header__about">About</a></li>
+              <li class="header__nav-items_item"><a href="products.html" class="header__products">Products</a></li>
+              <li class="header__nav-items_item"><a href="partners.html" class="header__partners">Partners</a></li>
             </ul>
             <ul class="header__nav-items">
               <li class="header__nav-items_item">
@@ -30,7 +30,7 @@
                   <!-- <option value="ch">CH</option> -->
                 </select>
               </li>
-              <a href="contact.html"><li class="header__nav-items_item btn-orange"><span>Contact Us</span></li></a>
+              <a href="contact.html"><li class="header__nav-items_item btn-orange"><span  class="header__contactus">Contact Us</span></li></a>
             </ul>
           </nav>
   
@@ -56,29 +56,29 @@
         <section class="contacts-bg">
           <div class="wrapper">
             <div class="contacts">
-              <h2 class="section-title">Contact Us</h2>
-              <p class="section-undertitle">
+              <h2 class="section-title contacts-title">Contact Us</h2>
+              <p class="section-undertitle contacts-undertitle">
                 If you have any questions, please contact us
               </p>
               <div class="contacts__text">
                 <div class="contacts__text-item">
                   <div class="contacts__text-item__type">
                     <img src="./img/emailcontact.svg" alt="email" />
-                    <p>Email</p>
+                    <p class="contacts__text-item__type__email">Email</p>
                   </div>
-                  <p>beatifulemail@gmail.com</p>
+                  <p>info@power-stream.net</p>
                 </div>
                 <div class="contacts__text-item">
                   <div class="contacts__text-item__type">
                     <img src="./img/phonecontact.svg" alt="phone" />
-                    <p>Phone</p>
+                    <p class="contacts__text-item__type__phone">Phone</p>
                   </div>
-                  <p>+86 130 5910 2019</p>
+                  <p>+971 56 735 1124</p>
                 </div>
                 <div class="contacts__text-item">
                   <div class="contacts__text-item__type">
                     <img src="./img/addresscontact.svg" alt="address" />
-                    <p>Address</p>
+                    <p class="contacts__text-item__type__address">Address</p>
                   </div>
                   <p>726-A, Area 200, Sheikh<br />Zayed Road Dubai, U.A.E.</p>
                 </div>
@@ -97,12 +97,12 @@
               <ul class="footer__contacts-items">
                 <li class="footer__contacts-items_item">
                   <img src="./img/phone_call.svg" alt="phone_call" />
-                  <a href="tel:+86 130 5910 2019">+86 130 5910 2019</a>
+                  <a href="tel:+86 130 5910 2019">+971 56 735 1124</a>
                 </li>
                 <li class="footer__contacts-items_item">
                   <img src="./img/email.svg" alt="email" />
                   <a href="mailto:info@asia-alliance.co"
-                    >info@asia-alliance.co</a
+                    >info@power-stream.net</a
                   >
                 </li>
               </ul>
@@ -119,5 +119,8 @@
         document.querySelector('body').classList.toggle('block-scroll')
       })
   </script>
+
+  <script src="js/lang.js"></script>
+  <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -20,9 +20,16 @@
       }
     }
     @media (max-width: 630px) {
+      padding: 0;
       font-size: 42px;
       span{
         font-size: 42px;
+      }
+    }
+    @media (max-width: 450px) {
+      font-size: 34px;
+      span{
+        font-size: 34px;
       }
     }
   }
