@@ -1,6 +1,28 @@
-.about__text{
-    text-align: justify;
-    margin-bottom: 60px;
+.about {
+    &-title{
+        @media (max-width: 1200px) {
+            font-size: 58px;
+            padding: 0 15px;
+        }
+        @media (max-width: 800px) {
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 630px) {
+            font-size: 42px;
+        }
+    }
+    &__text{
+        text-align: justify;
+        margin-bottom: 60px;
+        color: $accent;
+        @media (max-width: 1200px) {
+            padding: 0 30px;
+        }
+        @media (max-width: 800px) {
+            font-size: 20px;
+        }
+    }
 }
 
 .company-address{
@@ -11,5 +33,28 @@
     h2, address{
         text-align: center;
         color: $white;
+        @media (max-width: 1200px) {
+            padding: 0 30px;
+        }
+    }
+    h2{
+        @media (max-width: 1200px) {
+            font-size: 58px;
+        }
+        @media (max-width: 800px) {
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 630px) {
+            font-size: 42px;
+        }
+    }
+    address{
+        @media (max-width: 1200px) {
+            padding: 0 30px;
+        }
+        @media (max-width: 800px) {
+            font-size: 20px;
+        }
     }
 }

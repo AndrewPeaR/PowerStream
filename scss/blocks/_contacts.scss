@@ -47,4 +47,63 @@
             }
         }
     }
+    @media (max-width: 1200px){
+        h2{
+            font-size: 58px;
+        }
+    }
+    @media (max-width: 800px){
+        h2{
+            font-size: 52px;
+        }
+    }
+    @media (max-width: 630px){
+        h2{
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        .section-undertitle{
+            padding: 0 30px;
+            font-size: 20px;
+        }
+        &__text{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    @media (max-width: 460px){
+        &__text{
+            max-width: 561px;
+            margin: 0 auto;
+            p{
+                font-size: 16px;
+            }
+            img{
+                width: 28px;
+            }
+        }
+    }
+    @media (max-width: 370px){
+        &__text{
+            p{
+                font-size: 20px;
+            }
+            &-item{
+                margin-bottom: 50px;
+                flex-direction: column;
+                align-items: center;
+                &::after{
+                    top: 90px;
+                }
+                &__type{
+                    margin-bottom: 15px;
+                }
+                &:last-child{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
 }
