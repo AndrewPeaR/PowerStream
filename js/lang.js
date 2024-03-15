@@ -279,6 +279,18 @@ const productsPage = {
         "ru" : "Вычислительный узел IBM Flex System x240 - это высокопроизводительный сервер, который предлагает исключительную производительность виртуализации благодаря новым уровням производительности ЦП, объемам памяти и гибким опциям конфигурации.",
         "en" : "The IBM Flex System x240 Compute Node is a high-performance server that offers exceptional virtualization performance with new levels of CPU performance, memory capacity, and flexible configuration options.",
     },
+    ".products__cards-item__text_desc10" : {
+        "ru" : "Межсетевые экраны нового поколения Huawei HiSecEngine серии USG6600E предназначены для средних и крупных предприятий, учреждений и центров обработки данных нового поколения. Межсетевые экраны USG6600E предоставляют возможности NGFW и взаимодействуют с другими устройствами безопасности для проактивной защиты от сетевых угроз, расширения возможностей обнаружения границ и решения проблем снижения производительности.",
+        "en" : "Huawei HiSecEngine USG6600E series next-generation firewalls are designed for medium- and large-sized enterprises, institutions, and next-generation data centers. USG6600E firewalls provide NGFW capabilities and collaborate with other security devices to proactively defend against network threats, enhance border detection capabilities, and resolve performance deterioration problems.",
+    },
+    ".products__cards-item__text_desc11" : {
+        "ru" : "Маршрутизаторы Huawei NetEngine серии AR8700 - это высокопроизводительные и высоконадежные маршрутизаторы на выходе, предназначенные для сценариев SD-WAN в крупных кампусных сетях. Благодаря многоядерным процессорам на базе ARM и неблокируемой архитектуре коммутации они широко используются в различных отраслях, таких как финансы, государственное управление, энергетика и розничная торговля.",
+        "en" : "Huawei NetEngine AR8700 series routers are high-performance and high-reliability egress routers tailored to SD-WAN scenarios for large campus networks. Drawing on ARM-based multi-core processors and non-blocking switching architecture, they are widely used in diverse sectors such as finance, government, energy, and retail.",
+    },
+    ".products__cards-item__text_desc12" : {
+        "ru" : "Серия ME60 представляет собой ряд мультисервисных шлюзов управления - разновидность широкополосного сервера удаленного доступа (BRAS), разработанного компанией Huawei в качестве платформы для унифицированного доступа и управления пользователями и наиболее подходящего для таких отраслей, как телерадиовещание, телевидение и образование. Основанная на платформе 2T, серия может похвастаться самой емкой в отрасли линейной платой маршрутизации (480 Гб), а также линейной платой NAT-сервисов большой емкости (160 Гб), что позволяет плавно переходить от IPv4 к IPv6.",
+        "en" : "The ME60 series is a range of multiple-service control gateways — a type of Broadband Remote Access Server (BRAS) — developed by Huawei to serve as a platform for unified user access and management, and most suitable for industries such as broadcasting, television, and education. Based on a 2T platform, the series boasts the industry’s largest-capacity routing line card (480G) plus a large-capacity NAT service line card (160G), enabling smooth evolution from IPv4 to IPv6.",
+    },
 }
 
 const partnersPage = {
