@@ -1,8 +1,3 @@
-    // "." : {
-    //     "ru" : "",
-    //     "en" : "",
-    // },
-
 const indexPage = {
     ".header__home" : {
         "ru" : 'Главная',
